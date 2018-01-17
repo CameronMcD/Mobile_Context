@@ -1,3 +1,19 @@
 #test {
-  background-color: yellow;
+background-color: yellow;
+}
+
+@media screen and (max-device-width; 1920px);
+#test { 
+background-color: blue;
+    width : 100%;
+    height : 100%;    
+}    
+
+@media screen and (max-device-width; 320px);
+#test { 
+background-color: red;
+    width : 100%;
+    height : 100%;    
+}
+
 }
